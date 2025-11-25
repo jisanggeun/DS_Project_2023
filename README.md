@@ -7,7 +7,7 @@ KW Data Structure Project 2023
 
 ---
 
-### 📤 1. Data Structure Implementation (using Queue, BST, List)
+### 📤 1. Project 1: Data Structure Implementation (using Queue, BST, List)
 This project involves implementing a queue, a list, a BST connected to the list, and an independent BST, along with their corresponding functions: LOAD, ADD, QPOP, SEARCH, PRINT, DELETE, and EXIT
 
 
