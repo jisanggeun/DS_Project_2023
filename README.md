@@ -55,7 +55,7 @@ This project involves implementing a queue, a list, a BST connected to the list,
     - Receives either Name or a type(A, B, C, or D) as its argument.
  
     - If the argument is Name
-        - The root of NameBST is checked.
+        - The root of `NameBST` is checked.
         - If the root is nullptr
             - Error code `500` is printed because no data exists.
         - Otherwise
