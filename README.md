@@ -96,7 +96,21 @@ This project involves implementing a queue, a list, a BST connected to the list,
          - Using the stored end date, the corresponding node is deleted from the `TermsBST`.
          - The related `TermsList` entry decreases its count by 1. (Names are unique, so exactly one node is removed.)
          - A success message is printed following the required format.
-               
+
+- **EXIT**
+    - Applies to: `Manager`(BST, List, Queue Cleanup)
+    - In the `Manager`, all dynamically allocated data structures are properly freed before program termination.
+ 
+    - For each BST
+        - A post-order traversal is performed to delete all nodes.
+    - For each List
+        - Starting from the head, the program moves through the list using next, deleting each previous node as it progresses.
+    - For the Queue
+        - Starting from the front, nodes are deleted one by one in the same manner.
+
+    - After all nodes have been deleted, the BST, List, and Queue structures themselves are also deleted.
+    - A success message is printed in the required format, and finally exit(0) is executed to terminate the program.
+      
 ---
 
 ### 📥 
