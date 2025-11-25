@@ -108,7 +108,7 @@ This project involves implementing a queue, a list, a BST connected to the list,
 ---
 
 ## 📦 Structure
-- `Project 1`
+- `Project 1: Data Structure Implementation (using Queue, BST, List)` 
 <img width="2523" height="4513" alt="DS_1_Structure" src="https://github.com/user-attachments/assets/75ec2383-2e0b-408c-9bfc-add45452c0df" />
 
 
