@@ -80,7 +80,7 @@ This project involves implementing a queue, a list, a BST connected to the list,
          - After deletion, the corresponding `TermsList` Node count is reduced, and if the count becomes 0, that list entry is removed.
          - The stored names are then used to delete the matching nodes from the `NameBST`.
          - If the vector is empty (no nodes to delete)
-             - Error code 600 is printed.
+             - Error code `600` is printed.
          - Otherwise
              - A success message is printed.
                
@@ -91,8 +91,8 @@ This project involves implementing a queue, a list, a BST connected to the list,
              - If the name exists
                  - Deletion proceeds.
          - The deleted node's end date is stored in a vector (not the name), because:
-             - Names are unique --> can be used as a key in NameBST
-             - Dates may be duplicated --> date + name combination ensures correct deletion in TermsBST
+             - Names are unique --> can be used as a key in `NameBST`
+             - Dates may be duplicated --> date + name combination ensures correct deletion in `TermsBST`
          - Using the stored end date, the corresponding node is deleted from the `TermsBST`.
          - The related `TermsList` entry decreases its count by 1. (Names are unique, so exactly one node is removed.)
          - A success message is printed following the required format.
